@@ -15,10 +15,13 @@ import java.util.TreeMap;
 
 /**
  * Keeps stats on word count, calculates and prints top list every
- * logIntervalSec seconds to stdout,
+ * logIntervalSec seconds to stdout
+ * 
+ * More discussion at stdatalabs.blogspot.com
  * 
  * @author Sachin Thirumala
  */
+
 public class WordCounterBolt extends BaseRichBolt {
 
 	private static final long serialVersionUID = 2706047697068872387L;

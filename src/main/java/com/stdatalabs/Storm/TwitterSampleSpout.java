@@ -25,6 +25,21 @@ import backtype.storm.tuple.Values;
 
 import backtype.storm.utils.Utils;
 
+/**
+ * Arguments: <comsumerKey> <consumerSecret> <accessToken> <accessTokenSecret> <topic-name> <keyword_1> ... <keyword_n>
+ * <comsumerKey>		- Twitter consumer key 
+ * <consumerSecret>  	- Twitter consumer secret
+ * <accessToken>		- Twitter access token
+ * <accessTokenSecret>	- Twitter access token secret
+ * <keyword_1>			- The keyword to filter tweets
+ * <keyword_n>			- Any number of keywords to filter tweets
+ * 
+ * More discussion at stdatalabs.blogspot.com
+ * 
+ * @author Sachin Thirumala
+ */
+
+
 @SuppressWarnings("serial")
 public class TwitterSampleSpout extends BaseRichSpout {
    SpoutOutputCollector _collector;

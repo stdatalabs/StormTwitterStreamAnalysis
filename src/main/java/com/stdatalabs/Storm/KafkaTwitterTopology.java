@@ -13,7 +13,16 @@ import backtype.storm.LocalCluster;
 import backtype.storm.StormSubmitter;
 import backtype.storm.spout.SchemeAsMultiScheme;
 import backtype.storm.topology.TopologyBuilder;
-import storm.kafka.StringScheme;;
+import storm.kafka.StringScheme;
+
+/**
+ * A Storm topology to consume messages from kafka topic and count
+ * and display the list of top words used in tweets on a keyword
+ * 
+ * More discussion at stdatalabs.blogspot.com
+ * 
+ * @author Sachin Thirumala
+ */
 
 public class KafkaTwitterTopology {
 

@@ -12,8 +12,13 @@ import twitter4j.Status;
 import java.util.Map;
 
 /**
- * Receives tweets and emits its words over a certain length.
+ * Receives tweets and emits its words which are over a certain length.
+ * 
+ * More discussion at stdatalabs.blogspot.com
+ * 
+ * @author Sachin Thirumala
  */
+
 public class StringWordSplitterBolt extends BaseRichBolt {
 	
 	private static final long serialVersionUID = 5151173513759399636L;

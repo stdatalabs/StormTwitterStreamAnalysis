@@ -14,9 +14,13 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Bolt filters out a predefined set of words.
+ * Bolt filters out a predefined set of words
+ * 
+ * More discussion at stdatalabs.blogspot.com
+ * 
  * @author Sachin Thirumala
  */
+
 public class IgnoreWordsBolt extends BaseRichBolt {
 	
 	private static final long serialVersionUID = 6069146554651714100L;

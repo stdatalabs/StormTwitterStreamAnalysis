@@ -13,6 +13,19 @@ import backtype.storm.Config;
 import backtype.storm.LocalCluster;
 import backtype.storm.topology.TopologyBuilder;
 
+/**
+ * Arguments: <comsumerKey> <consumerSecret> <accessToken> <accessTokenSecret> <topic-name> <keyword>
+ * <comsumerKey>		- Twitter consumer key 
+ * <consumerSecret>  	- Twitter consumer secret
+ * <accessToken>		- Twitter access token
+ * <accessTokenSecret>	- Twitter access token secret
+ * <keyword>			- The keyword to filter tweets
+ * 
+ * More discussion at stdatalabs.blogspot.com
+ * 
+ * @author Sachin Thirumala
+ */
+
 public class TwitterWordCountTopology {
 	public static void main(String[] args) throws Exception {
 		String consumerKey = args[0];

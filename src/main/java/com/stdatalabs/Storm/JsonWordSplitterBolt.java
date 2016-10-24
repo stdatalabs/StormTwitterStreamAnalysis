@@ -13,7 +13,12 @@ import java.util.Map;
 
 /**
  * Receives tweets and emits its words over a certain length.
+ * 
+ * More discussion at stdatalabs.blogspot.com
+ * 
+ * @author Sachin Thirumala
  */
+
 public class JsonWordSplitterBolt extends BaseRichBolt {
 	
 	private static final long serialVersionUID = 5151173513759399636L;
