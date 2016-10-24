@@ -1,4 +1,4 @@
-# StormTwitteStreamrAnalysis
+# StormTwitterStreamAnalysis
 
 A  Storm Topology to generate a list of popular words used in twitter. Data is ingested from either a storm spout or a kafka spout and processed downstream using Storm Bolts.
 
