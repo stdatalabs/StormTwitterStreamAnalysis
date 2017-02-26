@@ -29,4 +29,4 @@ The source folder is organized into 2 packages i.e. Kafka and Storm. Storm packa
     Discussed in blog -- 
      [Realtime stream processing using Apache Storm and Kafka - Part 2](http://stdatalabs.blogspot.in/2016/10/real-time-stream-processing-using.html)
 
-### More articles on hadoop technology stack at [stdatalabs](stdatalabs.blogspot.com)
+### More articles on hadoop technology stack at [stdatalabs](http://stdatalabs.blogspot.com)
